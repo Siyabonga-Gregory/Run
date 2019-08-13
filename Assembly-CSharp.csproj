@@ -53,22 +53,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\CameraFollow.cs" />
-     <Compile Include="Assets\Scripts\Player.cs" />
- <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/_/_Programming/_Projects/Unity/_Development/2019/Run/Run/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
- </Reference>
+     <Compile Include="Assets\Run\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Run\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Run\Scripts\CheckPoint.cs" />
+     <Compile Include="Assets\Run\Scripts\CubeController.cs" />
+     <Compile Include="Assets\Run\Scripts\CubeManager.cs" />
+     <Compile Include="Assets\Run\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Run\Scripts\InputManager.cs" />
+     <Compile Include="Assets\Run\Scripts\JellyDecal.cs" />
+     <Compile Include="Assets\Run\Scripts\Player.cs" />
+     <Compile Include="Assets\Run\Scripts\RubberEffect.cs" />
+     <Compile Include="Assets\Run\Scripts\Sound.cs" />
+     <Compile Include="Assets\Run\Scripts\Tweener.cs" />
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>D:/_/_Programming/_Projects/Unity/_Development/2019/Run/Run/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>D:/_/_Programming/_Projects/Unity/_Development/2019/Run/Run/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/_/_Programming/_Projects/Unity/_Development/2019/Run/Run/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>D:/_/_Programming/_Projects/Unity/_Development/2019/Run/Run/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/Users/Greg/Documents/GitHub/Run/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -270,21 +268,6 @@
  </Reference>
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>D:/_/_Programming/_Projects/Unity/_Development/2019/Run/Run/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements.Editor">
- <HintPath>D:/_/_Programming/_Projects/Unity/_Development/2019/Run/Run/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.Editor">
- <HintPath>D:/_/_Programming/_Projects/Unity/_Development/2019/Run/Run/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>D:/_/_Programming/_Projects/Unity/_Development/2019/Run/Run/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="Unity.Analytics.Tracker">
- <HintPath>D:/_/_Programming/_Projects/Unity/_Development/2019/Run/Run/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
