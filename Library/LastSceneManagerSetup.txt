@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Run/Levels/level_sokoban.unity
+- path: Assets/Run/Levels/Escape.unity
   isLoaded: 1
   isActive: 1
